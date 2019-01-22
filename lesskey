@@ -1,0 +1,6 @@
+#command
+^j forw-screen
+^k back-screen
+J forw-screen
+K back-screen
+^d quit

@@ -1,0 +1,9 @@
+"\C-h":beginning-of-line
+"\C-l":end-of-line
+"\C-j":next-history
+"\C-k":previous-history
+"\C-p":kill-line
+"\M-h":backward-word
+"\M-l":forward-word
+"\C-\M-h":backward-char
+"\C-\M-l":forward-char

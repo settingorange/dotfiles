@@ -1,0 +1,12 @@
+[user]
+  name = name
+  email = email
+[core]
+  editor = vim
+[alias]
+  unstage = reset HEAD --
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[color]
+  ui = auto
