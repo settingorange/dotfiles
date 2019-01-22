@@ -21,6 +21,7 @@ nmap <C-k> <PageUp>
 nmap <C-l> <End>
 
 noremap <C-n> :set invnumber<CR>
+noremap <C-m> :nohl <CR>
 
 highlight ExtraWhiteSpace ctermbg=Red guibg=Red
 match ExtraWhiteSpace /^\s\+$\|\s\s\+$\|^\t\+\|^ \+\zs\t\+/
